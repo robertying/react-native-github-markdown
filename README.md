@@ -2,19 +2,25 @@
 
 Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView
 
+## Install
+
+```shell
+npm i react-native-github-markdown
+```
+
 ## Features
 
-- Render GitHub Flavored Markdown on your React Native WebView.
+- Render GitHub Flavored Markdown on your React Native WebView
 
-- Auto-height WebView adjusted to the document.
+- Auto-height WebView adjusted to the document
 
-- Code syntax highlighting.
+- Code syntax highlighting
 
 ## Caveats
 
-- Tested with Expo, i.e. WebView module shipped with React Native core. It should also work well with [react-native-webview](https://github.com/react-native-community/react-native-webview) though, as long as you substitute it for the old one (pull requests welcomed).
+- Tested with Expo, i.e. WebView module shipped with React Native core. It should also work well with [react-native-webview](https://github.com/react-native-community/react-native-webview) though, as long as you substitute it for the old one (pull requests welcomed)
 
-- Code syntax highlighting seems odd for long code snippets. It's a problem with `highlight.js`. You can choose to disable it using `highlight` prop.
+- Code syntax highlighting seems odd for long code snippets. It's a problem with `highlight.js`. You can choose to disable it using `highlight` prop
 
 ## Usage
 
