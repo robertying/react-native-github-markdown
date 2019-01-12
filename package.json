@@ -1,0 +1,48 @@
+{
+  "name": "react-native-github-markdown",
+  "version": "1.0.0",
+  "description": "Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView",
+  "keywords": [
+    "react-native",
+    "react",
+    "github",
+    "markdown",
+    "webview",
+    "highlight"
+  ],
+  "homepage": "https://github.com/robertying/react-native-github-markdown",
+  "bugs": {
+    "url": "https://github.com/robertying/react-native-github-markdown/issues",
+    "email": "yingrui205@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Robert Ying",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertying/react-native-github-markdown.git"
+  },
+  "devDependencies": {
+    "primer-base": "^1.9.2",
+    "primer-markdown": "^3.7.13",
+    "react": "^16.7.0",
+    "react-native": "^0.57.8",
+    "tslib": "^1.9.3",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/dompurify": "0.0.32",
+    "@types/highlight.js": "^9.12.3",
+    "@types/marked": "^0.6.0",
+    "@types/react": "^16.7.18",
+    "@types/react-native": "^0.57.27",
+    "dompurify": "^1.0.8",
+    "highlight.js": "^9.13.1",
+    "marked": "^0.6.0",
+    "react-native-webview-autoheight": "^1.0.6"
+  }
+}
