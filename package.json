@@ -1,6 +1,6 @@
 {
   "name": "react-native-github-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView",
   "keywords": [
     "react-native",
