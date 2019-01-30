@@ -1,3 +1,6 @@
+// tslint:disable-next-line: no-reference
+/// <reference path="./@types/react-native-webview-autoheight/index.d.ts" />
+
 import React from "react";
 import WebView, { WebViewProps } from "react-native-webview-autoheight";
 import makeMarkdown from "./makeMarkdown";
