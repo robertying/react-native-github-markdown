@@ -8,6 +8,7 @@
     "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "node",
+    "removeComments": true,
     "noEmitHelpers": true,
     "noUnusedLocals": true,
     "outDir": "dist",
