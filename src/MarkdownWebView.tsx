@@ -2,16 +2,23 @@ import React from "react";
 import WebView, { WebViewProps } from "react-native-webview-autoheight";
 import makeMarkdown from "./makeMarkdown";
 
+export interface IMarkdownWebViewProps extends WebViewProps {
+  content: string;
+  highlight?: boolean;
+}
+
 export default class MarkdownWebView extends React.Component<
-  WebViewProps & { content: string; highlight: boolean }
+  IMarkdownWebViewProps
 > {
   render() {
+    const { content, highlight } = this.props;
+
     return (
       <WebView
-        useWebKit={true}
         source={{
-          html: makeMarkdown(this.props.content, this.props.highlight)
+          html: makeMarkdown(content, highlight)
         }}
+        useWebKit={true}
         {...this.props}
       />
     );
