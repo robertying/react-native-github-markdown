@@ -2,7 +2,7 @@
 
 Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView
 
-📱👇
+Screenshot 📱 👇
 
 <img src="./screenshots/md-preview.jpg" width="400">
 
