@@ -52,6 +52,7 @@ For Markdown
 
 - `content` raw markdown content to render
 - `highlight` whether to use `highlight.js` for syntax highlighting
+- `innerRef` use this to access wrapped `WebView` if you need to call `stopLoading` etc
 
 ## Behind the scene
 
