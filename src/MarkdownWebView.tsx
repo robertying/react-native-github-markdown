@@ -8,16 +8,16 @@ import makeMarkdown from "./makeMarkdown";
 export interface IMarkdownWebViewProps extends WebViewProps {
   content: string;
   highlight?: boolean;
+  innerRef?: React.Ref<WebView>;
 }
 
-export default class MarkdownWebView extends React.Component<
-  IMarkdownWebViewProps
-> {
+class MarkdownWebView extends React.Component<IMarkdownWebViewProps> {
   render() {
-    const { content, highlight } = this.props;
+    const { content, highlight, innerRef } = this.props;
 
     return (
       <WebView
+        ref={innerRef}
         source={{
           html: makeMarkdown(content, highlight)
         }}
@@ -27,3 +27,9 @@ export default class MarkdownWebView extends React.Component<
     );
   }
 }
+
+export default React.forwardRef(
+  (props: IMarkdownWebViewProps, ref: React.Ref<WebView>) => (
+    <MarkdownWebView innerRef={ref} {...props} />
+  )
+);
