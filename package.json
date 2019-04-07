@@ -24,16 +24,16 @@
     "url": "https://github.com/robertying/react-native-github-markdown.git"
   },
   "devDependencies": {
-    "primer-base": "^2.0.0",
-    "primer-markdown": "^4.0.0",
-    "react": "^16.7.0",
-    "react-native": "^0.58.3",
-    "tslib": "^1.9.3",
-    "tslint": "^5.12.1",
-    "tslint-config-prettier": "^1.17.0",
-    "tslint-eslint-rules": "^5.4.0",
-    "tslint-react": "^3.6.0",
-    "typescript": "^3.3.1"
+    "primer-base": "2.0.0",
+    "primer-markdown": "4.0.0",
+    "react": "16.7.0",
+    "react-native": "0.58.3",
+    "tslib": "1.9.3",
+    "tslint": "5.12.1",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.3.1"
   },
   "dependencies": {
     "@types/dompurify": "0.0.32",
