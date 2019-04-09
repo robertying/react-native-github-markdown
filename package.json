@@ -27,7 +27,7 @@
     "primer-base": "2.0.0",
     "primer-markdown": "4.0.0",
     "react": "16.8.6",
-    "react-native": "0.59.3",
+    "react-native": "0.59.4",
     "tslib": "1.9.3",
     "tslint": "5.15.0",
     "tslint-config-prettier": "1.18.0",
