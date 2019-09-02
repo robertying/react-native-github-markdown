@@ -1,2 +1,2 @@
-import MarkdownWebView from "./MarkdownWebView";
+import MarkdownWebView from './MarkdownWebView';
 export default MarkdownWebView;
