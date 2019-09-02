@@ -1,5 +1,7 @@
+/* eslint-disable react-native/no-inline-styles */
+
 import React from 'react';
-import {SafeAreaView} from 'react-native';
+import {SafeAreaView, View, Text, ScrollView} from 'react-native';
 import MarkdownWebView from '../src';
 
 const testMD = `
@@ -58,7 +60,20 @@ The [Primer CSS docs site](https://primer.style/css) is deployed from this repo 
 const App = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
-      <MarkdownWebView content={testMD} highlight />
+      <ScrollView>
+        <View style={{height: 100}}>
+          <Text
+            style={{
+              alignSelf: 'center',
+              fontWeight: '600',
+              fontSize: 20,
+              margin: 30,
+            }}>
+            React Native GitHub Markdown Test
+          </Text>
+        </View>
+        <MarkdownWebView content={testMD} highlight />
+      </ScrollView>
     </SafeAreaView>
   );
 };
