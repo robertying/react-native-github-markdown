@@ -10,11 +10,12 @@
     "moduleResolution": "node",
     "removeComments": true,
     "noEmitHelpers": true,
+    "emitDeclarationOnly": true,
     "noUnusedLocals": true,
-    "outDir": "dist",
+    "outDir": "lib",
     "strict": true,
     "skipLibCheck": true,
     "target": "esnext"
   },
-  "exclude": ["node_modules", "dist"]
+  "include": ["src"]
 }
