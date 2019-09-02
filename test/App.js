@@ -1,8 +1,9 @@
 /* eslint-disable react-native/no-inline-styles */
 
-import React from 'react';
-import {SafeAreaView, View, Text, ScrollView} from 'react-native';
+import React, {useRef} from 'react';
+import {SafeAreaView, View, Text, ScrollView, Linking} from 'react-native';
 import MarkdownWebView from '../src';
+import WebView from 'react-native-webview';
 
 const testMD = `
 # Primer CSS
@@ -58,6 +59,17 @@ The [Primer CSS docs site](https://primer.style/css) is deployed from this repo 
 `;
 
 const App = () => {
+  const webViewRef = useRef < WebView > null;
+
+  const onNavigationStateChange = e => {
+    if (e.navigationType === 'click') {
+      if (webViewRef.current) {
+        webViewRef.current.stopLoading();
+      }
+      Linking.openURL(e.url);
+    }
+  };
+
   return (
     <SafeAreaView style={{flex: 1}}>
       <ScrollView>
@@ -72,7 +84,12 @@ const App = () => {
             React Native GitHub Markdown Test
           </Text>
         </View>
-        <MarkdownWebView content={testMD} highlight />
+        <MarkdownWebView
+          innerRef={webViewRef}
+          content={testMD}
+          highlight
+          onNavigationStateChange={onNavigationStateChange}
+        />
       </ScrollView>
     </SafeAreaView>
   );
