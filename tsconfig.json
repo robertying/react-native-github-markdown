@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true /* allow things like `import React from "react"` */,
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers": true /* use tslib */,
-    "jsx": "react-native",
+    "importHelpers": true,
+    "jsx": "preserve",
     "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "node",
@@ -13,6 +13,7 @@
     "noUnusedLocals": true,
     "outDir": "dist",
     "strict": true,
+    "skipLibCheck": true,
     "target": "esnext"
   },
   "exclude": ["node_modules", "dist"]
