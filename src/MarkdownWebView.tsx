@@ -1,35 +1,28 @@
-// tslint:disable-next-line: no-reference
-/// <reference path="./@types/react-native-webview-autoheight/index.d.ts" />
+import React from 'react';
+import AutoHeightWebView from './AutoHeightWebView';
+import makeMarkdown from './makeMarkdown';
+import WebView, {WebViewProps} from 'react-native-webview';
 
-import React from "react";
-import WebView, { WebViewProps } from "react-native-webview-autoheight";
-import makeMarkdown from "./makeMarkdown";
-
-export interface IMarkdownWebViewProps extends WebViewProps {
+export interface MarkdownWebViewProps extends WebViewProps {
   content: string;
   highlight?: boolean;
   innerRef?: React.Ref<WebView>;
 }
 
-class MarkdownWebView extends React.Component<IMarkdownWebViewProps> {
-  render() {
-    const { content, highlight, innerRef } = this.props;
+const MarkdownWebView: React.FC<MarkdownWebViewProps> = props => {
+  const {content, highlight, innerRef, ...restProps} = props;
 
-    return (
-      <WebView
-        ref={innerRef}
-        source={{
-          html: makeMarkdown(content, highlight)
-        }}
-        useWebKit={true}
-        {...this.props}
-      />
-    );
-  }
-}
+  return (
+    <AutoHeightWebView
+      ref={innerRef}
+      source={{
+        html: makeMarkdown(content, highlight),
+      }}
+      {...restProps}
+    />
+  );
+};
 
-export default React.forwardRef(
-  (props: IMarkdownWebViewProps, ref: React.Ref<WebView>) => (
-    <MarkdownWebView innerRef={ref} {...props} />
-  )
-);
+export default React.forwardRef<WebView, MarkdownWebViewProps>((props, ref) => (
+  <MarkdownWebView innerRef={ref} {...props} />
+));
