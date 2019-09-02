@@ -23,30 +23,27 @@ const injectedScript = `
 
 export interface AutoHeightWebViewProps extends WebViewProps {
   defaultHeight?: number;
-  innerRef?: React.Ref<WebView>;
 }
 
-const AutoHeightWebView: React.FC<AutoHeightWebViewProps> = props => {
-  const {defaultHeight, innerRef, ...restProps} = props;
-
-  const [height, setHeight] = useState(defaultHeight || 500);
-
-  const onMessage = (e: WebViewMessageEvent) => {
-    setHeight(parseInt(e.nativeEvent.data, 10));
-  };
-
-  return (
-    <WebView
-      ref={innerRef}
-      injectedJavaScript={injectedScript}
-      onMessage={onMessage}
-      javaScriptEnabled={true}
-      {...restProps}
-      style={[{height}, props.style]}
-    />
-  );
-};
-
 export default React.forwardRef<WebView, AutoHeightWebViewProps>(
-  (props, ref) => <AutoHeightWebView innerRef={ref} {...props} />,
+  (props, ref) => {
+    const {defaultHeight, ...restProps} = props;
+
+    const [height, setHeight] = useState(defaultHeight || 500);
+
+    const onMessage = (e: WebViewMessageEvent) => {
+      setHeight(parseInt(e.nativeEvent.data, 10));
+    };
+
+    return (
+      <WebView
+        ref={ref}
+        injectedJavaScript={injectedScript}
+        onMessage={onMessage}
+        javaScriptEnabled={true}
+        {...restProps}
+        style={[{height}, props.style]}
+      />
+    );
+  },
 );
