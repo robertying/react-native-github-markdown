@@ -3,7 +3,6 @@
 import React, {useRef} from 'react';
 import {SafeAreaView, View, Text, ScrollView, Linking} from 'react-native';
 import MarkdownWebView from '../src';
-import WebView from 'react-native-webview';
 
 const testMD = `
 # Primer CSS
@@ -59,7 +58,7 @@ The [Primer CSS docs site](https://primer.style/css) is deployed from this repo 
 `;
 
 const App = () => {
-  const webViewRef = useRef < WebView > null;
+  const webViewRef = useRef(null);
 
   const onNavigationStateChange = e => {
     if (e.navigationType === 'click') {
