@@ -772,10 +772,10 @@
     "@nodelib/fs.scandir" "2.1.2"
     fastq "^1.6.0"
 
-"@primer/css@12.6.2":
-  version "12.6.2"
-  resolved "https://registry.yarnpkg.com/@primer/css/-/css-12.6.2.tgz#2d9947e910d2f97c05231f5ba940919165067832"
-  integrity sha512-oysHWaq/dzu8bj6KF+30jnF8lao5XuecKl2RQKh+gTgojDfzIErmYAJQoJGvntH0tTrTr+9EfQd3O/fA3zPBPg==
+"@primer/css@12.7.0":
+  version "12.7.0"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-12.7.0.tgz#7ea766625a3cdcfe34f7d2bb48bbdc21211f1950"
+  integrity sha512-EVqfwX1jxKWQoV9IxxCJQG7HlyKefdkYTJdnDV43Rr1cyidUTkQN9W0uMuN+RD9cmAzip/40b2E+7gsvsFDmBA==
   dependencies:
     "@primer/octicons" "^9.1.1"
 
