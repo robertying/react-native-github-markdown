@@ -857,10 +857,10 @@
     "@nodelib/fs.scandir" "2.1.2"
     fastq "^1.6.0"
 
-"@primer/css@12.7.0":
-  version "12.7.0"
-  resolved "https://registry.yarnpkg.com/@primer/css/-/css-12.7.0.tgz#7ea766625a3cdcfe34f7d2bb48bbdc21211f1950"
-  integrity sha512-EVqfwX1jxKWQoV9IxxCJQG7HlyKefdkYTJdnDV43Rr1cyidUTkQN9W0uMuN+RD9cmAzip/40b2E+7gsvsFDmBA==
+"@primer/css@13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-13.0.0.tgz#312e3eddba1b190b06358aa2548518148dccbb94"
+  integrity sha512-zagnBNBuHNb+4FMUlewW2NRiY/sk1k6/f3Tyu4tMQj0dogPzixpBJQi1oL1Ismm/5+eTUJr8pVFrIemsCtU3LQ==
   dependencies:
     "@primer/octicons" "^9.1.1"
 
