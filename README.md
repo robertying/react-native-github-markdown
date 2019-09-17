@@ -14,6 +14,8 @@ Screenshot 📱 👇
 
 - Code syntax highlighting.
 
+- Dark mode!
+
 ## Install
 
 ```shell
@@ -37,6 +39,7 @@ import MarkdownWebView from 'react-native-github-markdown';
   style={{marginTop: 10}}
   content={'# React Native Github Markdown\n\nHello world!'}
   highlight
+  darkMode
 />;
 ```
 
@@ -45,6 +48,7 @@ import MarkdownWebView from 'react-native-github-markdown';
 - `defaultHeight`: default height when the actual height has not been computed.
 - `content`: raw markdown content to render.
 - `highlight`: whether to use `highlight.js` for syntax highlighting.
+- `darkMode`: whether to set rendered results in dark mode.
 
 ---
 
@@ -61,3 +65,5 @@ import MarkdownWebView from 'react-native-github-markdown';
 - Syntax highlighted by [highlight.js](https://github.com/highlightjs/highlight.js).
 
 - CSS from GitHub's [Primer](https://github.com/primer/css) and `highlight.js`.
+
+- Dark mode applied by [darkreader](https://github.com/darkreader/darkreader).
