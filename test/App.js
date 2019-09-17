@@ -84,7 +84,7 @@ const App = () => {
           </Text>
         </View>
         <MarkdownWebView
-          innerRef={webViewRef}
+          ref={webViewRef}
           content={testMD}
           highlight
           onNavigationStateChange={onNavigationStateChange}
