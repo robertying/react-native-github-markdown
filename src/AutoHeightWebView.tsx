@@ -41,6 +41,7 @@ export default React.forwardRef<WebView, AutoHeightWebViewProps>(
         injectedJavaScript={injectedScript}
         onMessage={onMessage}
         javaScriptEnabled={true}
+        decelerationRate="normal"
         {...restProps}
         style={[{height}, props.style]}
       />
