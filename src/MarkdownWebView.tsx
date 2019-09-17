@@ -12,7 +12,7 @@ export interface MarkdownWebViewProps extends AutoHeightWebViewProps {
 export default React.forwardRef<WebView, MarkdownWebViewProps>((props, ref) => {
   const {content, highlight, darkMode, ...restProps} = props;
 
-  const html = useMemo(() => makeMarkdown(content, highlight), [
+  const html = useMemo(() => makeMarkdown(content, highlight, darkMode), [
     content,
     highlight,
     darkMode,
