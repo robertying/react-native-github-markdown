@@ -39,7 +39,7 @@
     "dompurify": "2.0.1",
     "highlight.js": "9.15.10",
     "marked": "0.7.0",
-    "react-native-webview": "7.0.6"
+    "react-native-webview": "7.0.7"
   },
   "devDependencies": {
     "@babel/cli": "7.6.0",
