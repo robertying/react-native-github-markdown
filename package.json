@@ -51,7 +51,7 @@
     "@types/highlight.js": "9.12.3",
     "@types/marked": "0.6.5",
     "@types/react": "16.9.6",
-    "@types/react-native": "0.60.19",
+    "@types/react-native": "0.60.20",
     "babel-plugin-preval": "3.0.1",
     "eslint": "6.5.1",
     "eslint-plugin-prettier": "3.1.1",
