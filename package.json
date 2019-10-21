@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "darkreader": "4.7.15",
-    "dompurify": "2.0.6",
+    "dompurify": "2.0.7",
     "highlight.js": "9.15.10",
     "marked": "0.7.0",
     "react-native-webview": "^7.0.7"
