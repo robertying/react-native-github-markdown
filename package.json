@@ -42,9 +42,9 @@
     "react-native-webview": "^7.0.7"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.4",
-    "@babel/core": "7.6.4",
-    "@babel/runtime": "7.6.3",
+    "@babel/cli": "7.7.0",
+    "@babel/core": "7.7.0",
+    "@babel/runtime": "7.7.0",
     "@primer/css": "13.2.0",
     "@react-native-community/eslint-config": "0.0.5",
     "@types/dompurify": "2.0.0",
