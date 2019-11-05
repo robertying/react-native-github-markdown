@@ -62,7 +62,7 @@
     "react": "16.11.0",
     "react-native": "0.61.4",
     "tslib": "1.10.0",
-    "typescript": "3.6.4"
+    "typescript": "3.7.2"
   },
   "husky": {
     "hooks": {
