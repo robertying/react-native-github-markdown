@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.7.0",
-    "@babel/core": "7.7.0",
+    "@babel/core": "7.7.2",
     "@babel/runtime": "7.7.2",
     "@primer/css": "13.2.0",
     "@react-native-community/eslint-config": "0.0.5",
