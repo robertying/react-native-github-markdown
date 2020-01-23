@@ -1,11 +1,5 @@
-import DOMPurify from 'dompurify';
 import hljs from 'highlight.js';
 import Marked from 'marked';
-
-Marked.setOptions({
-  sanitize: true,
-  sanitizer: DOMPurify.sanitize,
-});
 
 declare const preval: any;
 
@@ -44,8 +38,6 @@ const makeMarkdown: (
       highlight: code => {
         return hljs.highlightAuto(code).value;
       },
-      sanitize: true,
-      sanitizer: DOMPurify.sanitize,
     });
   }
 
