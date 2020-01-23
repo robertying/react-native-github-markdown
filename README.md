@@ -1,5 +1,8 @@
 # React Native Github Markdown
 
+![npm version](https://img.shields.io/npm/v/react-native-github-markdown)
+![npm download](https://img.shields.io/npm/dm/react-native-github-markdown)
+
 Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView.
 
 Screenshot 📱 👇
@@ -56,6 +59,7 @@ import MarkdownWebView from 'react-native-github-markdown';
 
 ## Caveats
 
+- I haven't found any working HTML sanitizer for React Native, so you should always treat unknown input source carefully. Do proper sanitization yourself if possible.
 - Code syntax highlighting seems odd for long code snippets. It's a problem with `highlight.js`. You can choose to disable it using the `highlight` prop.
 
 ## Behind the Scene
