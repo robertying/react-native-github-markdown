@@ -1,6 +1,6 @@
 {
   "name": "react-native-github-markdown",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView",
   "keywords": [
     "react-native",
@@ -31,38 +31,38 @@
     "ios": "react-native run-ios",
     "android": "react-native run-android",
     "start": "react-native start",
-    "build": "babel src -d lib -x \".ts,.tsx\" && tsc",
+    "build": "babel src -d lib -x \".ts,.tsx\" -s inline && tsc",
     "lint": "eslint --ext .js,.ts src/"
   },
+  "peerDependencies": {
+    "react-native-webview": "^8.0.4"
+  },
   "dependencies": {
-    "darkreader": "4.7.15",
-    "dompurify": "2.0.7",
-    "highlight.js": "9.16.2",
-    "marked": "0.7.0",
-    "react-native-webview": "^7.0.7"
+    "@babel/runtime": "^7.8.3",
+    "darkreader": "^4.7.15",
+    "highlight.js": "^9.18.0",
+    "marked": "^0.8.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.0",
-    "@babel/core": "7.7.2",
-    "@babel/runtime": "7.7.2",
-    "@primer/css": "13.2.0",
-    "@react-native-community/eslint-config": "0.0.5",
-    "@types/dompurify": "2.0.0",
+    "@babel/cli": "7.8.3",
+    "@babel/core": "7.8.3",
+    "@primer/css": "14.1.0",
+    "@react-native-community/eslint-config": "0.0.6",
     "@types/highlight.js": "9.12.3",
     "@types/marked": "0.7.2",
-    "@types/react": "16.9.11",
-    "@types/react-native": "0.60.22",
+    "@types/react": "16.9.19",
+    "@types/react-native": "0.61.2",
     "babel-plugin-preval": "4.0.0",
-    "eslint": "6.6.0",
-    "eslint-plugin-prettier": "3.1.1",
-    "husky": "3.1.0",
-    "lint-staged": "9.4.3",
-    "metro-react-native-babel-preset": "0.57.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.0",
+    "lint-staged": "10.0.2",
+    "metro-react-native-babel-preset": "0.58.0",
     "prettier": "1.19.1",
     "react": "16.12.0",
-    "react-native": "0.61.4",
-    "tslib": "1.10.0",
-    "typescript": "3.7.2"
+    "react-native": "0.61.5",
+    "react-native-webview": "8.0.4",
+    "typescript": "3.7.5"
   },
   "husky": {
     "hooks": {
