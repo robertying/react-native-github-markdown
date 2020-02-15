@@ -816,10 +816,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@primer/css@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@primer/css/-/css-14.1.0.tgz#ce54e14cdd6e4a480a37d6eb71813a68412eae87"
-  integrity sha512-mpoUmYNxBcSsZ8MMU6GeJ72s6k6WuFh6UxbAjdVsYIY9amavy6Zoj0d6TaQjp3srwhM6XAzcfHooEn/tMu1Ehw==
+"@primer/css@14.2.0":
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-14.2.0.tgz#7debf703a68aeabbdc5ff38838ea1d649744f1cf"
+  integrity sha512-BvBuw0V8ypOFpFhvXRpPWQQ3w/piUMS/Pp/rRg3ddnw0eu2keC2Sj+CzJv3ofsiGoq7juHGfGQlqkOWmSQjXRw==
   dependencies:
     "@primer/octicons" "^9.1.1"
 
