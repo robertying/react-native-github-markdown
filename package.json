@@ -50,7 +50,7 @@
     "@react-native-community/eslint-config": "0.0.7",
     "@types/highlight.js": "9.12.3",
     "@types/marked": "0.7.2",
-    "@types/react": "16.9.19",
+    "@types/react": "16.9.23",
     "@types/react-native": "0.61.17",
     "babel-plugin-preval": "4.0.0",
     "eslint": "6.8.0",
