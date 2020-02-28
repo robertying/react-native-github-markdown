@@ -1,6 +1,6 @@
 {
   "name": "react-native-github-markdown",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generate GitHub Flavored Markdown (with syntax highlight) using React Native WebView",
   "keywords": [
     "react-native",
@@ -38,31 +38,31 @@
     "react-native-webview": "^8.0.4"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
     "darkreader": "^4.7.15",
-    "highlight.js": "^9.18.0",
+    "highlight.js": "^9.18.1",
     "marked": "^0.8.0"
   },
   "devDependencies": {
     "@babel/cli": "7.8.4",
-    "@babel/core": "7.8.4",
+    "@babel/core": "7.8.6",
     "@primer/css": "14.2.0",
     "@react-native-community/eslint-config": "0.0.7",
     "@types/highlight.js": "9.12.3",
     "@types/marked": "0.7.2",
-    "@types/react": "16.9.19",
+    "@types/react": "16.9.23",
     "@types/react-native": "0.61.17",
     "babel-plugin-preval": "4.0.0",
     "eslint": "6.8.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
-    "lint-staged": "10.0.2",
+    "lint-staged": "10.0.8",
     "metro-react-native-babel-preset": "0.58.0",
     "prettier": "1.19.1",
-    "react": "16.12.0",
+    "react": "16.13.0",
     "react-native": "0.61.5",
-    "react-native-webview": "8.0.4",
-    "typescript": "3.7.5"
+    "react-native-webview": "8.1.2",
+    "typescript": "3.8.2"
   },
   "husky": {
     "hooks": {
