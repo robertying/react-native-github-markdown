@@ -49,7 +49,7 @@
     "@primer/css": "14.2.0",
     "@react-native-community/eslint-config": "0.0.7",
     "@types/highlight.js": "9.12.3",
-    "@types/marked": "0.7.2",
+    "@types/marked": "0.7.3",
     "@types/react": "16.9.23",
     "@types/react-native": "0.61.17",
     "babel-plugin-preval": "4.0.0",
