@@ -35,7 +35,7 @@
     "lint": "eslint --ext .js,.ts src/"
   },
   "peerDependencies": {
-    "react-native-webview": "^8.0.4"
+    "react-native-webview": "^8.0.4 || ^9.0.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.8.4",
@@ -61,7 +61,7 @@
     "prettier": "1.19.1",
     "react": "16.13.0",
     "react-native": "0.61.5",
-    "react-native-webview": "8.1.2",
+    "react-native-webview": "9.0.1",
     "typescript": "3.8.3"
   },
   "husky": {
