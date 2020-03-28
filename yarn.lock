@@ -5407,10 +5407,10 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-webview@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-9.0.1.tgz#81ae3aa33e446f1c93586f972092f805ab07b03a"
-  integrity sha512-BAFjItI8hrhLRtG5TeN18s53SUJjyjhH4HlVbl9trZLzJVPqG/VQmG9AaAk88hzOR8QvKf8dOg8qDuoHhs0M8g==
+react-native-webview@9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-9.0.2.tgz#5a9920261758e1ced129b6def9cf657d2c352194"
+  integrity sha512-HnQ0+8jt3556QocsYTtmG3Y8eAG88GzmBodDT0PTz4TuLzPJukubj41OFkP7hytZlSdXIxyoV9A06GruyxXeLQ==
   dependencies:
     escape-string-regexp "2.0.0"
     invariant "2.2.4"
