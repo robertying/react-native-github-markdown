@@ -792,10 +792,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@primer/css@14.2.0":
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/@primer/css/-/css-14.2.0.tgz#7debf703a68aeabbdc5ff38838ea1d649744f1cf"
-  integrity sha512-BvBuw0V8ypOFpFhvXRpPWQQ3w/piUMS/Pp/rRg3ddnw0eu2keC2Sj+CzJv3ofsiGoq7juHGfGQlqkOWmSQjXRw==
+"@primer/css@14.3.0":
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-14.3.0.tgz#66d3e25a6c750e65d06234d1cf4e16a32567c611"
+  integrity sha512-n5/skNhsbCc+wStmH2nSFHWS8I1XFVtdSabG7IuCYbGELuxduw3x5kl9uYQwG558E5/4wQZ/WbAeACuTTjcWFA==
   dependencies:
     "@primer/octicons" "^9.1.1"
 
