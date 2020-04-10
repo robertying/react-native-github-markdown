@@ -58,7 +58,7 @@
     "husky": "4.2.3",
     "lint-staged": "10.1.1",
     "metro-react-native-babel-preset": "0.59.0",
-    "prettier": "2.0.2",
+    "prettier": "2.0.4",
     "react": "16.13.1",
     "react-native": "0.62.1",
     "react-native-webview": "9.0.2",
