@@ -61,7 +61,7 @@
     "prettier": "2.0.5",
     "react": "16.13.1",
     "react-native": "0.62.2",
-    "react-native-webview": "9.2.2",
+    "react-native-webview": "9.3.0",
     "typescript": "3.8.3"
   },
   "husky": {
