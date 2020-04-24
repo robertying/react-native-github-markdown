@@ -35,7 +35,7 @@ const makeMarkdown: (
 ) => string = (md, highlight, darkMode) => {
   if (highlight) {
     Marked.setOptions({
-      highlight: code => {
+      highlight: (code) => {
         return hljs.highlightAuto(code).value;
       },
     });
