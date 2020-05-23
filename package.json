@@ -46,7 +46,7 @@
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.6",
-    "@primer/css": "14.3.0",
+    "@primer/css": "14.4.0",
     "@react-native-community/eslint-config": "1.1.0",
     "@types/highlight.js": "9.12.4",
     "@types/marked": "0.7.4",
