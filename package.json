@@ -44,8 +44,8 @@
     "marked": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.8.4",
-    "@babel/core": "7.9.6",
+    "@babel/cli": "7.10.1",
+    "@babel/core": "7.10.1",
     "@primer/css": "14.4.0",
     "@react-native-community/eslint-config": "1.1.0",
     "@types/highlight.js": "9.12.4",
