@@ -47,7 +47,7 @@
     "@babel/cli": "7.10.1",
     "@babel/core": "7.10.2",
     "@primer/css": "14.4.0",
-    "@react-native-community/eslint-config": "1.1.0",
+    "@react-native-community/eslint-config": "2.0.0",
     "@types/highlight.js": "9.12.4",
     "@types/marked": "0.7.4",
     "@types/react": "16.9.35",
