@@ -60,7 +60,7 @@
     "metro-react-native-babel-preset": "0.60.0",
     "prettier": "2.0.5",
     "react": "16.13.1",
-    "react-native": "0.63.0",
+    "react-native": "0.63.2",
     "react-native-webview": "10.3.2",
     "typescript": "3.9.6"
   },
